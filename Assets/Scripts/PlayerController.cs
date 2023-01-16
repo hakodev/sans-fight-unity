@@ -3,8 +3,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    #region Variables
-
     [SerializeField] float moveSpeed;
     [SerializeField] Transform sansOverworld;
     private bool isMoving = false;
@@ -12,14 +10,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb2d;
     private Animator animator;
     
-    private Vector2 _moveDirection = Vector2.zero;
+    private Vector2 moveDirection = Vector2.zero;
     public InputAction InputMove { get; set; }
     public InputAction InputInteract { get; set; }
     public InputAction InputCancel { get; set; }
-
-    #endregion
-
-    #region Unity Functions
 
     private void Awake() {
         rb2d = GetComponent<Rigidbody2D>();
@@ -38,32 +32,32 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update() {
-        if (_moveDirection != Vector2.zero) {
+        if (moveDirection != Vector2.zero) {
             isMoving = true;
 
-            if (_moveDirection.x != 0 && _moveDirection.y != 0) {
+            if (moveDirection.x != 0 && moveDirection.y != 0) {
                 // Keep the player faced the same way when moving diagonally
                 float currentDirection = animator.GetFloat("moveX");
 
                 animator.SetFloat("moveX", currentDirection);
             }
             else {
-                animator.SetFloat("moveX", _moveDirection.x);
-                animator.SetFloat("moveY", _moveDirection.y);
+                animator.SetFloat("moveX", moveDirection.x);
+                animator.SetFloat("moveY", moveDirection.y);
             }
         }
         else {
             isMoving = false;
         }
 
-        _moveDirection = InputMove.ReadValue<Vector2>();
+        moveDirection = InputMove.ReadValue<Vector2>();
         animator.SetBool("isMoving", isMoving);
     }
 
     private void FixedUpdate() {
-        var move = new Vector2(_moveDirection.x, _moveDirection.y);
+        var move = new Vector2(moveDirection.x, moveDirection.y);
 
-        if (_moveDirection.x != 0 && _moveDirection.y != 0) {
+        if (moveDirection.x != 0 && moveDirection.y != 0) {
             // Keep the player at the same speed as moving straight when moving diagonally
             rb2d.velocity = moveSpeed * 1.4f * move;
         }
@@ -79,10 +73,6 @@ public class PlayerController : MonoBehaviour
             // Stop player for Sans dialogue
         }
     }
-
-    #endregion
-
-    #region Input Setup
 
     private void SetupMove() {
         InputMove = playerControls.Player.Move;
@@ -108,15 +98,9 @@ public class PlayerController : MonoBehaviour
         InputCancel.Disable();
     }
 
-    #endregion
-
-    #region Control Actions
-
     private void Move(InputAction.CallbackContext context) { }
 
     private void Interact(InputAction.CallbackContext context) { }
 
     private void Cancel(InputAction.CallbackContext context) { }
-
-    #endregion
 }
