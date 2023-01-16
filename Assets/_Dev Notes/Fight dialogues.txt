@@ -1,0 +1,179 @@
+
+First attempt and only until the opening attack is survived once:
+
+it's a beautiful day outside.
+birds are singing, flowers are blooming...
+on days like these, kids like you...
+	Should be burning in hell. [Sans's voice is not present for this line.]
+		huh. always wondered why people never use their strongest attack first. [First time the player survives the opening attack]
+
+
+After surviving the opening attack once:
+
+it's a beautiful day outside.
+birds are singing, [abruptly cuts to the opening attack]
+	anyway, as i was saying, it's a nice day out. why not relax and take a load off? [Second time surviving the opening attack]
+
+
+After surviving the opening attack 2 or more times:
+
+ready?
+	here we go. [After the attack]
+
+
+Player attacks:
+
+1: what? you think i'm just gonna stand there and take it?
+2: our reports showed a massive anomaly in the timespace continuum.
+   timelines jumping left and right, stopping and starting...
+3: until suddenly, everything ends.
+4: heh heh heh... that's your fault, isn't it?
+5: you can't understand how this feels.
+6: knowing that one day, without any warning...
+   it's all going to be reset.
+7: look. i gave up trying to go back a long time ago.
+8: and getting to the surface doesn't really appeal anymore, either.
+9: cause even if we do...
+   we'll just end up right back here, without any memory of it, right?
+10: to be blunt...
+    it makes it kind of hard to give it my all.
+11: ... or is that just a poor excuse for being lazy...?
+    hell if i know.
+12: all i know is... seeing what comes next...
+    i can't afford not to care anymore.
+13: [music fades]
+
+ugh... that being said...
+you, uh, really like swinging that thing around, huh?
+...
+listen.
+
+[Normal spare dialogue]
+i know you didn't answer me before, but...
+somewhere in there. i can feel it.
+there's a glimmer of a good person inside of you.
+the memory of someone who once wanted to do the right thing.
+someone who, in another time, might have even been...
+a friend?
+c'mon, buddy.
+do you remember me?
+please, if you're listening...
+let's forget all this, ok?
+just lay down your weapon, and...
+well, my job will be a lot easier.
+
+[Spare dialogue if the player has previously tried sparing Sans]
+friendship...
+it's really great, right?
+let's quit fighting.
+
+Spare:
+...
+you're sparing me?
+finally.
+buddy. pal.
+i know how hard it must be...
+to make that choice.
+to go back on everything you've worked up to.
+i want you to know... i won't let it go to waste.
+...
+c'mere, pal.
+[Sans kills player, game over screen after sparing Sans]
+geeettttttt dunked on!!!
+if we're really friends...
+you won't come back.
+
+Attack:
+14: welp, it was worth a shot.
+    guess you like doing things the hard way, huh? (proceed to 15)
+
+    [If the player previously tried sparing Sans]
+    woah, you look REALLY pissed off...
+    heheheh...
+    did i getcha?
+    well, if you came back anyway...
+    i guess that means we never really WERE friends, huh?
+    heh.
+    don't tell that to the other sans-es, ok?
+15: sounds strange, but before all this i was secretly hoping we could be friends.
+    i always thought the anomaly was doing this cause they were unhappy.
+    and when they got what they wanted, they would stop all this.
+16: and maybe all they needed was... i dunno.
+    some good food, some bad laughs, some nice friends.
+17: but that's ridiculous, right?
+    yeah, you're the type of person who won't EVER be happy.
+18: you'll keep consuming timelines over and over, until...
+    well.
+    hey.
+    take it from me, kid.
+    someday...
+    you gotta learn when to QUIT.
+19: and that day's TODAY.
+20: cause... y'see...
+    all this fighting is really tiring me out.
+21: and if you keep pushing me...
+    then i'll be forced to use my special attack. ("special attack" in red text)
+22: yeah, my special attack. sound familiar? ("special attack" in red text)
+    well, get ready. cause after the next move, i'm going to use it. ("use it" in red text)
+    so, if you don't want to see it, now would be a good time to die.
+23: well, here goes nothing...
+    are you ready?
+    survive THIS and i'll show you my special attack! ("special attack" in red text)
+
+After 23:
+huff... puff...
+all right. that's it.
+it's time for my special attack. ("special attack" in red text)
+are you ready?
+here goes nothing.
+
+yep.
+that's right.
+it's literally nothing.
+and it's not going to be anything, either.
+heh heh heh... ya get it?
+i know i can't beat you.
+one of your turns...
+you're just gonna kill me.
+so, uh.
+i've decided...
+it's not gonna BE your turn. ever.
+i'm just gonna keep having MY turn until you give up.
+even if it means we have to stand here until the end of time.
+capiche?
+
+you'll get bored here.
+if you haven't gotten bored already, i mean.
+and then, you'll finally quit.
+
+i know your type.
+you're, uh, very determined, aren't you?
+you'll never give up, even if there's, uh...
+absolutely NO benefit to persevering whatsoever.
+if i can make that clear.
+no matter what, you'll just keep going.
+not out of any desire for good or evil...
+but just because you think you can.
+and because you "can"...
+... you "have to."
+
+but now, you've reached the end.
+there is nothing left for you now.
+so, uh, in my personal opinion...
+the most "determined" thing you can do here?
+is to, uh, completely give up.
+and... (yawn) do literally anything else.
+
+24: heh, didja really think you would be able
+25 (automatic):
+...
+...
+...
+so...
+guess that's it, huh?
+...
+just...
+don't say i didn't warn you.
+welp.
+i'm going to grillby's.
+papyrus, do you want anything?

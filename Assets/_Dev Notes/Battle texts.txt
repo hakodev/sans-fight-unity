@@ -1,0 +1,22 @@
+Flavor text:
+
+[Starting text] You feel like you're going to have a bad time.
+[Check] The easiest enemy. Can only deal 1 damage.
+	[Check after attacked at least once] Can't keep dodging forever. Keep attacking.
+[After attacking once] Just keep attacking.
+[After attacking 4 times] Sans's movements grow a little wearier.
+[After attacking 9 times] Sans's movements seem to be slower.
+
+[How much KR you player when Sans's last turn began]
+	[0-10 KR] You felt your sins crawling on your back.
+	[10-20 KR] You felt your sins weighing on your neck.
+	[20-30 KR] KARMA coursing through your veins.
+	[30-40 KR] Doomed to death of KARMA!
+
+[When Sans pretends to spare the player] Sans is sparing you.
+[2nd phase start] The REAL battle finally begins.
+[2nd phase text 2] Reading this doesn't seem like the best use of your time.
+[2nd phase text 3] Felt like a turning point.
+[2nd phase text 4] Sans is starting to look really tired.
+[2nd phase text 5] Sans is preparing something.
+[2nd phase text 6] Sans is getting ready to use his special attack.
