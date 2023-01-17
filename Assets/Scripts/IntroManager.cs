@@ -16,6 +16,7 @@ public class IntroManager : MonoBehaviour
         saveFile = Path.Combine(Application.persistentDataPath, "GameData.dat");
         video = GetComponent<VideoPlayer>();
         LoadData();
+        video.Prepare();
     }
 
     private void Start() {
@@ -27,7 +28,6 @@ public class IntroManager : MonoBehaviour
     }
 
     private IEnumerator ManageVideoData() {
-        video.Prepare();
         video.Play();
         yield return new WaitForSeconds(48f);
         Data.IntroWatched = true;
