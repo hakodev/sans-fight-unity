@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 110692128}
   m_Layer: 0
   m_Name: LeftWall
-  m_TagString: Untagged
+  m_TagString: WallLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 226232773}
   m_Layer: 0
   m_Name: UpperLevelRight
-  m_TagString: Untagged
+  m_TagString: WallUpper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -343,7 +343,7 @@ RectTransform:
   m_Children:
   - {fileID: 1506590814}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 277888645}
   m_Layer: 0
   m_Name: UpperLevelMiddle
-  m_TagString: Untagged
+  m_TagString: WallUpper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5101,7 +5101,6 @@ Transform:
   - {fileID: 226232772}
   - {fileID: 110692127}
   - {fileID: 1462284626}
-  - {fileID: 1673726102}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5171,7 +5170,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &678541993
 PrefabInstance:
@@ -5886,7 +5885,7 @@ GameObject:
   - component: {fileID: 1462284627}
   m_Layer: 0
   m_Name: RightWall
-  m_TagString: Untagged
+  m_TagString: WallRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6063,7 +6062,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 100
+  far clip plane: 1000
   field of view: 60
   orthographic: 1
   orthographic size: 6
@@ -6090,7 +6089,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610346662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: -10}
+  m_LocalPosition: {x: -2, y: -0.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6189,7 +6188,7 @@ GameObject:
   - component: {fileID: 1673726103}
   m_Layer: 0
   m_Name: FightTrigger
-  m_TagString: Untagged
+  m_TagString: FightTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6202,12 +6201,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673726101}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 30.5, y: -2, z: 0}
+  m_LocalPosition: {x: 30.95, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 631188970}
-  m_RootOrder: 6
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1673726103
 BoxCollider2D:
@@ -6444,7 +6443,7 @@ GameObject:
   - component: {fileID: 1703560152}
   m_Layer: 0
   m_Name: UpperLevelLeft
-  m_TagString: Untagged
+  m_TagString: WallUpper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7144,7 +7143,7 @@ GameObject:
   - component: {fileID: 2118474847}
   m_Layer: 0
   m_Name: LowerLevel
-  m_TagString: Untagged
+  m_TagString: WallLower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
