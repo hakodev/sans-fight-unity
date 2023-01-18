@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class CameraManager : MonoBehaviour
-{
+public class CameraManager : MonoBehaviour {
     [SerializeField] Transform player;
 
     private void Update() {

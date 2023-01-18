@@ -6,8 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
-public class IntroManager : MonoBehaviour
-{
+public class IntroManager : MonoBehaviour {
     [field: SerializeField] public SaveData Data { get; private set; }
     private string saveFile;
     private VideoPlayer video;
