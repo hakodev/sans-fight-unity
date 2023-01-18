@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7135000513533264725}
   - component: {fileID: 7135000513533264724}
   - component: {fileID: 5334273336086241371}
+  - component: {fileID: 7090972745594689136}
   - component: {fileID: 3806917999804006645}
   m_Layer: 0
   m_Name: RightDoor
@@ -112,6 +113,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.44, y: 0.9185481}
   m_EdgeRadius: 0
+--- !u!114 &7090972745594689136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7135000513533264726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6287958aa31e444b15b39593a4378e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &3806917999804006645
 AudioSource:
   m_ObjectHideFlags: 0
