@@ -8,8 +8,8 @@ public class DialogueManager : MonoBehaviour {
     [SerializeField] TMP_FontAsset dtmMono;
     [SerializeField] TMP_FontAsset comicSans;
     [SerializeField] Color charaTextColor;
-    [SerializeField] GameObject dialogueBox;
-    [SerializeField] TextMeshProUGUI dialogueText;
+    [field: SerializeField] public GameObject DialogueBox { get; set; }
+    [field: SerializeField] public TextMeshProUGUI DialogueText { get; set; }
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip textAudioClip;
     [SerializeField] AudioClip fightAudioClip;
@@ -54,24 +54,24 @@ public class DialogueManager : MonoBehaviour {
     private IEnumerator TypeDialogue(string sentence, Speaker speaker) {
         typeFinished = false;
 
-        dialogueText.font = speaker switch {
+        DialogueText.font = speaker switch {
             Speaker.Sans => comicSans,
             _ => dtmMono
         };
 
-        dialogueText.color = speaker switch {
+        DialogueText.color = speaker switch {
             Speaker.Chara => charaTextColor,
             _ => Color.white
         };
 
-        dialogueText.text = "";
+        DialogueText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
             if (playerController.InputCancel.IsPressed()) {
-                dialogueText.text = sentence;
+                DialogueText.text = sentence;
                 break;
             }
             else {
-                dialogueText.text += letter;
+                DialogueText.text += letter;
 
                 audioSource.PlayOneShot(
                     speaker switch {
@@ -87,13 +87,14 @@ public class DialogueManager : MonoBehaviour {
         typeFinished = true;
     }
 
-    private void OpenDialogueBox() {
-        dialogueBox.SetActive(true);
+    public void OpenDialogueBox() {
+        DialogueBox.SetActive(true);
         playerController.InputMove.Disable();
     }
 
-    private void CloseDialogueBox() {
-        dialogueBox.SetActive(false);
+    public void CloseDialogueBox() {
+        DialogueBox.SetActive(false);
+        DialogueText.text = "";
         playerController.InputMove.Enable();
     }
 }

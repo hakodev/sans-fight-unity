@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("FightTrigger")) {
             sansOverworld.position = new Vector2(sansOverworld.position.x, gameObject.transform.position.y);
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
 
             // Stop player for Sans dialogue
             InputMove.Disable();

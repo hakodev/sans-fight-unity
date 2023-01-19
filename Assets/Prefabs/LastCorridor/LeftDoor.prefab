@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 0}
   dialogue:
-    speaker: 0
+    speaker: 2
     sentences:
     - "* We are too far in to go\n  back."
     - '* Finish the job.'
