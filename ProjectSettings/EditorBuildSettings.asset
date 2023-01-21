@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Intro.unity
     guid: 0893c0223cfe1894ab1ebb473be32019
   - enabled: 1
-    path: Assets/_Scenes/PreFight.unity
-    guid: 289a24ede2ed334458b2267356011825
+    path: Assets/_Scenes/Menu.unity
+    guid: d90d2f8ff8887234f99df935609b7193
   m_configObjects: {}

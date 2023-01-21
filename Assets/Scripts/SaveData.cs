@@ -9,4 +9,8 @@ public class SaveData {
     public int DeathCount { get; set; } = 0;
     [ProtoMember(3)]
     public int SansKillCount { get; set; } = 0;
+    [ProtoMember(4)]
+    public int PlayMinutes { get; set; } = 0;
+    [ProtoMember(5)]
+    public int PlaySeconds { get; set; } = 0;
 }
